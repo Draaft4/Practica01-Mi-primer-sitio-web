@@ -1,8 +1,23 @@
+html {
+    background-color: whitesmoke;
+}
+
 body {
+    background-color: greenyellow;
     margin: 0 auto;
     width: 100%;
     max-width: 1020px;
     min-width: 640px;
+    box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+body>footer {
+    padding-left: 25%;
+}
+
+body>section {
+    margin: 5%;
+    padding-left: 25%;
 }
 
 body>header {
@@ -14,31 +29,9 @@ body>header {
 }
 
 body>nav {
+    box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
+    background-color: darkolivegreen;
     width: 20%;
     float: left;
-    margin: 0 0 0 1.5%;
-}
-
-body>article#about_tss {
-    width: 51%;
-    float: left;
-    margin: 0 3% 0 3%;
-}
-
-body>aside {
-    width: 20%;
-    float: left;
-    margin: 0 1.5% 0 0;
-}
-
-body>article#about_tss img {
-    float: right;
-    width: 40%;
-    margin: 0px 0 10px 10px;
-}
-
-article.syllabus {
-    float: left;
-    width: 74.5%;
-    margin: 0 4% 0 0%;
+    margin: 0%;
 }
