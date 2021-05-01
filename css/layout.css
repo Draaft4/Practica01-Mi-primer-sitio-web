@@ -11,27 +11,58 @@ body {
     box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
-body>footer {
-    padding-left: 25%;
-}
-
-body>section {
-    margin: 5%;
-    padding-left: 25%;
-}
-
 body>header {
     margin: 0;
     width: 100%;
     overflow: hidden;
-    text-align: center;
-    position: relative;
 }
 
-body>nav {
-    box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
-    background-color: darkolivegreen;
-    width: 20%;
+nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#log {
+    height: 37px;
+    width: 40px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    background-color: #2e518b;
+}
+
+#menu ul a,
+#menu ul p {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+#menu ul li a img {
+    width: 15px;
+    height: 15px;
+}
+
+#menu ul li {
+    position: relative;
     float: left;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover {
+    background: #5b78a7;
 }
