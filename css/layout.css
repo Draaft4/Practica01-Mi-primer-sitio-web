@@ -11,6 +11,7 @@ img.iz {
 }
 
 img.compl {
+    width: 20%;
     float: left;
     text-align: right;
 }

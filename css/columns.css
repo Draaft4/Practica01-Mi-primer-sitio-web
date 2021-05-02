@@ -1,0 +1,12 @@
+body>aside {
+    width: 20%;
+    float: left;
+    margin: 0 1.5% 0 0;
+}
+
+body>section.lateral {
+    padding: 10px;
+    width: 20%;
+    float: left;
+    margin: 0 1.5% 0 0;
+}

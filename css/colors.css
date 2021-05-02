@@ -23,7 +23,8 @@ body footer div a {
     src: url("../fonts/Ubuntu-Light.ttf");
 }
 
-section {
+section,
+h1 {
     color: midnightblue;
     font-family: "Ubuntu-Light";
     font-size: 100%;
