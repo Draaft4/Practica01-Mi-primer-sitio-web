@@ -11,8 +11,21 @@ body {
     box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
+img.mundo {
+    float: right;
+    width: 15%;
+    height: 15%;
+}
+
 body footer {
     margin: 10px;
+}
+
+body footer p,
+body footer div p,
+body footer div a {
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
 }
 
 body>header {
@@ -21,7 +34,8 @@ body>header {
     overflow: hidden;
 }
 
-p {
+p,
+section {
     margin: 10px;
 }
 
