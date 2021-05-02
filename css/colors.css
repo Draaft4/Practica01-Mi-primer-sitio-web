@@ -1,0 +1,30 @@
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: greenyellow;
+    margin: auto;
+    width: 100%;
+    max-width: 1020px;
+    min-width: 640px;
+    box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+body footer p,
+body footer div p,
+body footer div a {
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+}
+
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+section {
+    color: midnightblue;
+    font-family: "Ubuntu-Light";
+    font-size: 100%;
+}
