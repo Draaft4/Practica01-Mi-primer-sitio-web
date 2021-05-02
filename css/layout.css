@@ -17,6 +17,16 @@ img.mundo {
     height: 15%;
 }
 
+img.iz {
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+
+aside.vid {
+    float: right;
+}
+
 body footer {
     margin: 10px;
 }
