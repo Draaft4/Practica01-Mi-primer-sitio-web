@@ -4,17 +4,25 @@ html {
 
 body {
     background-color: greenyellow;
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
     max-width: 1020px;
     min-width: 640px;
     box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
+body footer {
+    margin: 10px;
+}
+
 body>header {
     margin: 0;
     width: 100%;
     overflow: hidden;
+}
+
+p {
+    margin: 10px;
 }
 
 nav {
