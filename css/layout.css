@@ -11,6 +11,17 @@ body {
     box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+section {
+    color: midnightblue;
+    font-family: "Ubuntu-Light";
+    font-size: 100%;
+}
+
 img.mundo {
     float: right;
     width: 15%;
@@ -21,6 +32,11 @@ img.iz {
     float: left;
     width: 10%;
     height: 10%;
+}
+
+img.compl {
+    float: left;
+    text-align: right;
 }
 
 aside.vid {
